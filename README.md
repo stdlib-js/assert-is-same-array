@@ -35,30 +35,14 @@ limitations under the License.
 
 > Test if two arguments are both generic arrays and have the [same values][@stdlib/assert/is-same-value].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/assert-is-same-array
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var isSameArray = require( '@stdlib/assert-is-same-array' );
+import isSameArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array@esm/index.mjs';
 ```
 
 #### isSameArray( v1, v2 )
@@ -95,8 +79,13 @@ bool = isSameArray( x, [ -1.0, 2.0 ] );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var isSameArray = require( '@stdlib/assert-is-same-array' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import isSameArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array@esm/index.mjs';
 
 var x = [ 1.0, 2.0, 3.0 ];
 var y = [ 1.0, 2.0, 3.0 ];
@@ -112,6 +101,10 @@ x = [ NaN, NaN, NaN ];
 y = [ NaN, NaN, NaN ];
 out = isSameArray( x, y );
 // returns true
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -135,7 +128,7 @@ out = isSameArray( x, y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -195,7 +188,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-same-array/main/LICENSE
 
-[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value
+[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value/tree/esm
 
 </section>
 
