@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSameArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array@deno/mod.js';
+import isSameArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array@v0.2.2-deno/mod.js';
 ```
 
 #### isSameArray( v1, v2 )
@@ -80,7 +80,7 @@ bool = isSameArray( x, [ -1.0, 2.0 ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isSameArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array@deno/mod.js';
+import isSameArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array@v0.2.2-deno/mod.js';
 
 var x = [ 1.0, 2.0, 3.0 ];
 var y = [ 1.0, 2.0, 3.0 ];
