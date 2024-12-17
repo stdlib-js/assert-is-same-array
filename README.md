@@ -129,6 +129,8 @@ out = isSameArray( x, y );
 ## See Also
 
 -   <span class="package-name">[`@stdlib/assert-is-array`][@stdlib/assert/is-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array.</span>
+-   <span class="package-name">[`@stdlib/assert-is-equal-array`][@stdlib/assert/is-equal-array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both generic arrays and have equal values.</span>
+-   <span class="package-name">[`@stdlib/assert-is-same-array-like`][@stdlib/assert/is-same-array-like]</span><span class="delimiter">: </span><span class="description">test if two arguments are both array-like and have the same values.</span>
 -   <span class="package-name">[`@stdlib/assert-is-same-value`][@stdlib/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
 
 </section>
@@ -174,8 +176,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-same-array.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-same-array
 
-[test-image]: https://github.com/stdlib-js/assert-is-same-array/actions/workflows/test.yml/badge.svg?branch=v0.2.2
-[test-url]: https://github.com/stdlib-js/assert-is-same-array/actions/workflows/test.yml?query=branch:v0.2.2
+[test-image]: https://github.com/stdlib-js/assert-is-same-array/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/assert-is-same-array/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-same-array/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-is-same-array?branch=main
@@ -212,6 +214,10 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 <!-- <related-links> -->
 
 [@stdlib/assert/is-array]: https://github.com/stdlib-js/assert-is-array
+
+[@stdlib/assert/is-equal-array]: https://github.com/stdlib-js/assert-is-equal-array
+
+[@stdlib/assert/is-same-array-like]: https://github.com/stdlib-js/assert-is-same-array-like
 
 <!-- </related-links> -->
 
