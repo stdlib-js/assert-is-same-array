@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`52fdc1c`](https://github.com/stdlib-js/stdlib/commit/52fdc1c3fce187d4bac3f072f15156ea0ac90371) - **refactor:** consolidate into a single line _(by Athan Reines)_
 -   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
 
 </details>
@@ -19,6 +20,18 @@
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
